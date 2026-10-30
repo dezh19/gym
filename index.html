@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Upper Demerara Barbell Club — a barbell and strength gym at 606 'E' Retrieve, Mackenzie, Linden, Guyana. Open Monday to Friday, 6AM to 9PM.">
+    <meta name="theme-color" content="#141211">
+
+    <!--=============== SOCIAL PREVIEW ===============-->
+    <meta property="og:title" content="Upper Demerara Barbell Club">
+    <meta property="og:description" content="Barbell & strength gym in Mackenzie, Linden. Mon–Fri, 6AM–9PM.">
+    <meta property="og:image" content="assets/img/icon-512.png">
+    <meta property="og:type" content="website">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="icon" href="assets/img/favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="assets/img/icon-192.png">
+    <link rel="manifest" href="manifest.webmanifest">
+
+    <!--=============== REMIXICON ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Upper Demerara Barbell Club | Mackenzie, Linden</title>
+</head>
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#home" class="nav__logo">
+                <img src="assets/img/udbc-emblem.png" alt="" class="nav__logo-img">
+                <span class="nav__logo-text">
+                    UDBC
+                    <small>Barbell Club</small>
+                </span>
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li><a href="#program" class="nav__link">Training</a></li>
+                    <li><a href="#choose" class="nav__link">Why Us</a></li>
+                    <li><a href="#pricing" class="nav__link">Membership</a></li>
+                    <li><a href="#gallery" class="nav__link">Club Life</a></li>
+                    <li><a href="#join" class="nav__link">Contact</a></li>
+                    <li><a href="#join" class="button nav__button">Join the Club</a></li>
+                </ul>
+
+                <button class="nav__close" id="nav-close" aria-label="Close menu">
+                    <i class="ri-close-line"></i>
+                </button>
+            </div>
+
+            <div class="nav__actions">
+                <span class="status-pill" data-status>
+                    <span class="status-pill__dot"></span>
+                    <span data-status-text>Checking hours…</span>
+                </span>
+
+                <button class="nav__toggle" id="nav-toggle" aria-label="Open menu" aria-controls="nav-menu" aria-expanded="false">
+                    <i class="ri-menu-4-line"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h2 class="home__subtitle">Mackenzie, Linden's</h2>
+                    <h1 class="home__title">
+                        <span class="home__title-border">Barbell</span>
+                        Club
+                    </h1>
+                    <p class="home__description">
+                        Upper Demerara Barbell Club is a no-excuses iron gym for everyone
+                        who wants to get stronger. Squat, bench, deadlift, sweat and grow
+                        alongside a gym family that shows up for each other.
+                    </p>
+
+                    <div class="home__buttons">
+                        <a href="#pricing" class="button">
+                            Get Started <i class="ri-arrow-right-line"></i>
+                        </a>
+                        <a href="tel:+5926935900" class="button button--ghost">
+                            <i class="ri-phone-line"></i> Call Us
+                        </a>
+                    </div>
+
+                    <ul class="home__info">
+                        <li>
+                            <i class="ri-map-pin-2-line"></i>
+                            606 'E' Retrieve, Mackenzie, Linden
+                        </li>
+                        <li>
+                            <i class="ri-time-line"></i>
+                            Monday – Friday · 6AM – 9PM
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="home__images">
+                    <div class="home__frame">
+                        <img src="assets/img/gym-crew.jpg" alt="Club members standing at the bench press station inside the gym" class="home__img">
+                    </div>
+
+                    <div class="home__badge">
+                        <img src="assets/img/udbc-emblem.png" alt="Upper Demerara Barbell Club emblem">
+                    </div>
+
+                    <div class="home__card" data-status>
+                        <span class="status-pill__dot"></span>
+                        <div>
+                            <strong data-status-text>Checking hours…</strong>
+                            <small data-status-detail>Mon – Fri · 6AM – 9PM</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== TICKER ====================-->
+        <section class="ticker" aria-label="What we train">
+            <div class="ticker__track">
+                <ul class="ticker__list">
+                    <li>Powerlifting</li>
+                    <li>Bodybuilding</li>
+                    <li>Strength</li>
+                    <li>Conditioning</li>
+                    <li>Barbell</li>
+                    <li>Gym Family</li>
+                </ul>
+                <ul class="ticker__list" aria-hidden="true">
+                    <li>Powerlifting</li>
+                    <li>Bodybuilding</li>
+                    <li>Strength</li>
+                    <li>Conditioning</li>
+                    <li>Barbell</li>
+                    <li>Gym Family</li>
+                </ul>
+            </div>
+        </section>
+
+        <!--==================== PROGRAM ====================-->
+        <section class="program section" id="program">
+            <div class="container">
+                <div class="section__data">
+                    <h2 class="section__subtitle">Our Training</h2>
+                    <div class="section__titles">
+                        <h1 class="section__title-border">Build Your</h1>
+                        <h1 class="section__title">Strength</h1>
+                    </div>
+                </div>
+
+                <div class="program__container grid">
+                    <article class="program__card">
+                        <div class="program__shape">
+                            <i class="ri-weight-line"></i>
+                        </div>
+                        <h3 class="program__title">Powerlifting</h3>
+                        <p class="program__description">
+                            Squat, bench press and deadlift. Barbells, plates and bench
+                            stations ready for your heaviest sets.
+                        </p>
+                        <a href="#join" class="program__button" data-goal="Powerlifting" aria-label="Ask about powerlifting">
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </article>
+
+                    <article class="program__card">
+                        <div class="program__shape">
+                            <i class="ri-body-scan-line"></i>
+                        </div>
+                        <h3 class="program__title">Bodybuilding</h3>
+                        <p class="program__description">
+                            Free weights, dumbbells and a cable station to build size,
+                            shape and symmetry, one rep at a time.
+                        </p>
+                        <a href="#join" class="program__button" data-goal="Bodybuilding" aria-label="Ask about bodybuilding">
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </article>
+
+                    <article class="program__card">
+                        <div class="program__shape">
+                            <i class="ri-heart-pulse-line"></i>
+                        </div>
+                        <h3 class="program__title">Cardio &amp; Conditioning</h3>
+                        <p class="program__description">
+                            Treadmills and a turf area for warm-ups, conditioning work
+                            and keeping your engine strong.
+                        </p>
+                        <a href="#join" class="program__button" data-goal="Cardio & Conditioning" aria-label="Ask about cardio and conditioning">
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </article>
+
+                    <article class="program__card">
+                        <div class="program__shape">
+                            <i class="ri-team-line"></i>
+                        </div>
+                        <h3 class="program__title">Beginner Friendly</h3>
+                        <p class="program__description">
+                            New to lifting? Experienced members are on the floor every
+                            day and happy to show you the ropes.
+                        </p>
+                        <a href="#join" class="program__button" data-goal="Getting started" aria-label="Ask about getting started">
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== CHOOSE US ====================-->
+        <section class="choose section" id="choose">
+            <div class="choose__container container grid">
+                <div class="choose__images">
+                    <div class="choose__frame">
+                        <img src="assets/img/club-vest.jpg" alt="Two members by the cable machine, one wearing an Upper Demerara Barbell Club vest" class="choose__img">
+                    </div>
+                </div>
+
+                <div class="choose__content">
+                    <div class="section__data">
+                        <h2 class="section__subtitle">Best Reason</h2>
+                        <div class="section__titles">
+                            <h1 class="section__title-border">Why</h1>
+                            <h1 class="section__title">Choose UDBC?</h1>
+                        </div>
+                        <p class="choose__description">
+                            Real iron, real people. Train in a gym where everybody knows
+                            your name, the music is loud and the only bad workout is the
+                            one you didn't do.
+                        </p>
+                    </div>
+
+                    <div class="choose__data">
+                        <div class="choose__group">
+                            <h3 class="choose__number">15hrs</h3>
+                            <p class="choose__subtitle">Open Every Weekday</p>
+                        </div>
+                        <div class="choose__group">
+                            <h3 class="choose__number">36+</h3>
+                            <p class="choose__subtitle">Gym Family Members</p>
+                        </div>
+                        <div class="choose__group">
+                            <h3 class="choose__number">6AM</h3>
+                            <p class="choose__subtitle">Early Birds Welcome</p>
+                        </div>
+                        <div class="choose__group">
+                            <h3 class="choose__number">100%</h3>
+                            <p class="choose__subtitle">Raw Iron &amp; Effort</p>
+                        </div>
+                    </div>
+
+                    <ul class="choose__features">
+                        <li><i class="ri-checkbox-circle-fill"></i> Barbells, plates &amp; bench stations</li>
+                        <li><i class="ri-checkbox-circle-fill"></i> Dumbbells &amp; free weights</li>
+                        <li><i class="ri-checkbox-circle-fill"></i> Cable crossover machine</li>
+                        <li><i class="ri-checkbox-circle-fill"></i> Treadmills &amp; turf area</li>
+                        <li><i class="ri-checkbox-circle-fill"></i> Shakes &amp; supplements</li>
+                        <li><i class="ri-checkbox-circle-fill"></i> A gym family that has your back</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== PRICING ====================-->
+        <section class="pricing section" id="pricing">
+            <div class="container">
+                <div class="section__data">
+                    <h2 class="section__subtitle">Membership</h2>
+                    <div class="section__titles">
+                        <h1 class="section__title-border">Pick</h1>
+                        <h1 class="section__title">Your Plan</h1>
+                    </div>
+                </div>
+
+                <!-- Prices are placeholders: confirm the club's real rates before going live -->
+                <div class="pricing__container grid">
+                    <article class="pricing__card">
+                        <div class="pricing__shape">
+                            <i class="ri-ticket-2-line"></i>
+                        </div>
+                        <h3 class="pricing__title">Day Pass</h3>
+                        <h1 class="pricing__number"><small>GY$</small>1,000</h1>
+                        <ul class="pricing__list">
+                            <li class="pricing__item"><i class="ri-check-line"></i> One full training day</li>
+                            <li class="pricing__item"><i class="ri-check-line"></i> All weights &amp; equipment</li>
+                            <li class="pricing__item"><i class="ri-check-line"></i> Cardio &amp; turf area</li>
+                            <li class="pricing__item pricing__item--off"><i class="ri-close-line"></i> Member events</li>
+                        </ul>
+                        <a href="#join" class="button pricing__button" data-plan="Day Pass">
+                            Choose Plan <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </article>
+
+                    <article class="pricing__card pricing__card--featured">
+                        <span class="pricing__tag">Most Popular</span>
+                        <div class="pricing__shape">
+                            <i class="ri-calendar-check-line"></i>
+                        </div>
+                        <h3 class="pricing__title">Monthly</h3>
+                        <h1 class="pricing__number"><small>GY$</small>6,000</h1>
+                        <ul class="pricing__list">
+                            <li class="pricing__item"><i class="ri-check-line"></i> Mon – Fri, 6AM – 9PM</li>
+                            <li class="pricing__item"><i class="ri-check-line"></i> All weights &amp; equipment</li>
+                            <li class="pricing__item"><i class="ri-check-line"></i> Cardio &amp; turf area</li>
+                            <li class="pricing__item"><i class="ri-check-line"></i> Member events &amp; club group</li>
+                        </ul>
+                        <a href="#join" class="button pricing__button" data-plan="Monthly">
+                            Choose Plan <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </article>
+
+                    <article class="pricing__card">
+                        <div class="pricing__shape">
+                            <i class="ri-medal-line"></i>
+                        </div>
+                        <h3 class="pricing__title">3 Months</h3>
+                        <h1 class="pricing__number"><small>GY$</small>15,000</h1>
+                        <ul class="pricing__list">
+                            <li class="pricing__item"><i class="ri-check-line"></i> Everything in Monthly</li>
+                            <li class="pricing__item"><i class="ri-check-line"></i> Best value per month</li>
+                            <li class="pricing__item"><i class="ri-check-line"></i> Member events &amp; club group</li>
+                            <li class="pricing__item"><i class="ri-check-line"></i> Commit to a real cycle</li>
+                        </ul>
+                        <a href="#join" class="button pricing__button" data-plan="3 Months">
+                            Choose Plan <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </article>
+                </div>
+
+                <p class="pricing__note">
+                    <i class="ri-information-line"></i>
+                    Rates may change. Call or message the club to confirm before you visit.
+                </p>
+            </div>
+        </section>
+
+        <!--==================== GALLERY ====================-->
+        <section class="gallery section" id="gallery">
+            <div class="container">
+                <div class="section__data">
+                    <h2 class="section__subtitle">Club Life</h2>
+                    <div class="section__titles">
+                        <h1 class="section__title-border">Inside</h1>
+                        <h1 class="section__title">The Club</h1>
+                    </div>
+                </div>
+
+                <div class="gallery__container">
+                    <figure class="gallery__item gallery__item--wide">
+                        <button class="gallery__open" data-index="0" aria-label="Open photo: old-school strength">
+                            <img src="assets/img/club-heritage.jpg" alt="Vintage photo of a large group of muscular men posing together" loading="lazy">
+                        </button>
+                        <figcaption>Old-school strength. Can you name them all?</figcaption>
+                    </figure>
+
+                    <figure class="gallery__item gallery__item--tall">
+                        <button class="gallery__open" data-index="1" aria-label="Open photo: Team Guyana gold">
+                            <img src="assets/img/fesupo-gold.jpg" alt="Lifter on the first-place podium holding the Guyana flag at the FESUPO powerlifting championship in Chile" loading="lazy">
+                        </button>
+                        <figcaption>Team Guyana's first gold at FESUPO, Chile 2026</figcaption>
+                    </figure>
+
+                    <figure class="gallery__item">
+                        <button class="gallery__open" data-index="2" aria-label="Open photo: shakes and supplements">
+                            <img src="assets/img/supplements.jpg" alt="Shelf of protein, creatine and supplement tubs" loading="lazy">
+                        </button>
+                        <figcaption>Shakes &amp; supplements</figcaption>
+                    </figure>
+
+                    <figure class="gallery__item">
+                        <button class="gallery__open" data-index="3" aria-label="Open photo: good vibes">
+                            <img src="assets/img/lounge.jpg" alt="Lounge area with a neon good vibes sign" loading="lazy">
+                        </button>
+                        <figcaption>Good vibes after the session</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== CALCULATE ====================-->
+        <section class="calculate section" id="bmi">
+            <div class="calculate__container container grid">
+                <div class="calculate__content">
+                    <div class="section__data">
+                        <div class="section__titles">
+                            <h1 class="section__title-border">Calculate</h1>
+                            <h1 class="section__title">Your BMI</h1>
+                        </div>
+                        <p class="calculate__description">
+                            Body mass index (BMI) estimates body fat from your height and
+                            weight. It's a starting point, not the whole story: muscle
+                            weighs more, so strong lifters often read high.
+                        </p>
+                    </div>
+
+                    <form class="calculate__form" id="calculate-form" novalidate>
+                        <div class="units" role="radiogroup" aria-label="Units">
+                            <label class="units__option">
+                                <input type="radio" name="units" value="metric" checked>
+                                <span>Metric (cm / kg)</span>
+                            </label>
+                            <label class="units__option">
+                                <input type="radio" name="units" value="imperial">
+                                <span>Imperial (ft / lb)</span>
+                            </label>
+                        </div>
+
+                        <div class="calculate__box" data-units="metric">
+                            <input type="number" inputmode="decimal" min="0" step="any" placeholder="Height" class="calculate__input" id="calculate-cm" aria-label="Height in centimetres">
+                            <label for="calculate-cm" class="calculate__label">cm</label>
+                        </div>
+
+                        <div class="calculate__row" data-units="imperial" hidden>
+                            <div class="calculate__box">
+                                <input type="number" inputmode="numeric" min="0" step="1" placeholder="Height" class="calculate__input" id="calculate-ft" aria-label="Height, feet">
+                                <label for="calculate-ft" class="calculate__label">ft</label>
+                            </div>
+                            <div class="calculate__box">
+                                <input type="number" inputmode="decimal" min="0" max="11.9" step="any" placeholder="0" class="calculate__input" id="calculate-in" aria-label="Height, inches">
+                                <label for="calculate-in" class="calculate__label">in</label>
+                            </div>
+                        </div>
+
+                        <div class="calculate__box">
+                            <input type="number" inputmode="decimal" min="0" step="any" placeholder="Weight" class="calculate__input" id="calculate-weight" aria-label="Weight">
+                            <label for="calculate-weight" class="calculate__label" id="weight-unit">kg</label>
+                        </div>
+
+                        <button type="submit" class="button calculate__button">
+                            Calculate Now <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </form>
+
+                    <p class="calculate__message" id="calculate-message" role="status" aria-live="polite"></p>
+                </div>
+
+                <div class="calculate__scale" aria-hidden="true">
+                    <div class="bmi-meter">
+                        <div class="bmi-meter__bar">
+                            <span class="bmi-meter__seg bmi-meter__seg--under"></span>
+                            <span class="bmi-meter__seg bmi-meter__seg--healthy"></span>
+                            <span class="bmi-meter__seg bmi-meter__seg--over"></span>
+                            <span class="bmi-meter__seg bmi-meter__seg--obese"></span>
+                            <span class="bmi-meter__pointer" id="bmi-pointer"></span>
+                        </div>
+                        <div class="bmi-meter__labels">
+                            <span>Under<br>&lt;18.5</span>
+                            <span>Healthy<br>18.5–24.9</span>
+                            <span>Over<br>25–29.9</span>
+                            <span>Obese<br>30+</span>
+                        </div>
+                        <p class="bmi-meter__value" id="bmi-value">--.-</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== JOIN / CONTACT ====================-->
+        <section class="join section" id="join">
+            <div class="container">
+                <div class="section__data">
+                    <h2 class="section__subtitle">Come Lift With Us</h2>
+                    <div class="section__titles">
+                        <h1 class="section__title-border">Join</h1>
+                        <h1 class="section__title">The Club</h1>
+                    </div>
+                </div>
+
+                <div class="join__container grid">
+                    <form class="join__form" id="join-form" novalidate>
+                        <p class="join__intro">
+                            Fill this in and it opens WhatsApp with your message ready to
+                            send to the club.
+                        </p>
+
+                        <div class="join__field">
+                            <label for="join-name">Your name</label>
+                            <input type="text" id="join-name" name="name" autocomplete="name" placeholder="e.g. Jordan Williams" required>
+                        </div>
+
+                        <div class="join__field">
+                            <label for="join-phone">Phone / WhatsApp</label>
+                            <input type="tel" id="join-phone" name="phone" autocomplete="tel" placeholder="e.g. 600-1234" required>
+                        </div>
+
+                        <div class="join__row">
+                            <div class="join__field">
+                                <label for="join-plan">Plan</label>
+                                <select id="join-plan" name="plan">
+                                    <option value="Not sure yet">Not sure yet</option>
+                                    <option value="Day Pass">Day Pass</option>
+                                    <option value="Monthly">Monthly</option>
+                                    <option value="3 Months">3 Months</option>
+                                </select>
+                            </div>
+
+                            <div class="join__field">
+                                <label for="join-goal">Main goal</label>
+                                <select id="join-goal" name="goal">
+                                    <option value="Getting started">Getting started</option>
+                                    <option value="Powerlifting">Powerlifting</option>
+                                    <option value="Bodybuilding">Bodybuilding</option>
+                                    <option value="Cardio & Conditioning">Cardio &amp; Conditioning</option>
+                                    <option value="General fitness">General fitness</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="join__field">
+                            <label for="join-message">Message (optional)</label>
+                            <textarea id="join-message" name="message" rows="3" placeholder="When would you like to start?"></textarea>
+                        </div>
+
+                        <button type="submit" class="button join__button">
+                            <i class="ri-whatsapp-line"></i> Send on WhatsApp
+                        </button>
+
+                        <p class="form__message" id="join-message-status" role="status" aria-live="polite"></p>
+                    </form>
+
+                    <div class="join__info">
+                        <div class="join__card">
+                            <h3 class="join__title"><i class="ri-time-line"></i> Opening Hours</h3>
+                            <ul class="hours" id="hours-list">
+                                <li data-day="1"><span>Monday</span><span>6AM – 9PM</span></li>
+                                <li data-day="2"><span>Tuesday</span><span>6AM – 9PM</span></li>
+                                <li data-day="3"><span>Wednesday</span><span>6AM – 9PM</span></li>
+                                <li data-day="4"><span>Thursday</span><span>6AM – 9PM</span></li>
+                                <li data-day="5"><span>Friday</span><span>6AM – 9PM</span></li>
+                                <li data-day="6"><span>Saturday</span><span>Closed</span></li>
+                                <li data-day="0"><span>Sunday</span><span>Closed</span></li>
+                            </ul>
+                        </div>
+
+                        <div class="join__card">
+                            <h3 class="join__title"><i class="ri-phone-line"></i> Call the Club</h3>
+                            <div class="join__phones">
+                                <a href="tel:+5926935900" class="join__phone">592-693-5900</a>
+                                <a href="tel:+5926270139" class="join__phone">627-0139</a>
+                                <a href="tel:+5924444314" class="join__phone">444-4314</a>
+                            </div>
+                        </div>
+
+                        <div class="join__card join__card--map">
+                            <h3 class="join__title"><i class="ri-map-pin-2-line"></i> 606 'E' Retrieve, Mackenzie, Linden</h3>
+                            <iframe class="join__map"
+                                title="Map of Retrieve, Mackenzie, Linden"
+                                src="https://www.google.com/maps?q=Retrieve,+Mackenzie,+Linden,+Guyana&amp;output=embed"
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <a href="https://www.google.com/maps/search/?api=1&amp;query=Retrieve%2C+Mackenzie%2C+Linden%2C+Guyana" target="_blank" rel="noopener" class="join__directions">
+                                Get directions <i class="ri-external-link-line"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section" id="footer">
+        <div class="footer__container container grid">
+            <div class="footer__brand">
+                <a href="#home" class="footer__logo">
+                    <img src="assets/img/udbc-emblem.png" alt="" class="footer__logo-img">
+                    Upper Demerara <br> Barbell Club
+                </a>
+                <p class="footer__description">
+                    Get club news, events and <br> schedule updates on WhatsApp.
+                </p>
+
+                <form class="footer__form" id="updates-form" novalidate>
+                    <input type="text" placeholder="Your name" class="footer__input" id="updates-name" aria-label="Your name" autocomplete="name">
+                    <button type="submit" class="button footer__button">
+                        Get Updates <i class="ri-whatsapp-line"></i>
+                    </button>
+                </form>
+                <p class="form__message" id="updates-message" role="status" aria-live="polite"></p>
+            </div>
+
+            <div class="footer__content">
+                <div>
+                    <h3 class="footer__title">Training</h3>
+                    <ul class="footer__links">
+                        <li><a href="#program" class="footer__link">Powerlifting</a></li>
+                        <li><a href="#program" class="footer__link">Bodybuilding</a></li>
+                        <li><a href="#program" class="footer__link">Cardio &amp; Conditioning</a></li>
+                        <li><a href="#bmi" class="footer__link">BMI Calculator</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">Membership</h3>
+                    <ul class="footer__links">
+                        <li><a href="#pricing" class="footer__link">Day Pass</a></li>
+                        <li><a href="#pricing" class="footer__link">Monthly</a></li>
+                        <li><a href="#pricing" class="footer__link">3 Months</a></li>
+                        <li><a href="#join" class="footer__link">Join the Club</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">Visit</h3>
+                    <ul class="footer__links">
+                        <li class="footer__text">606 'E' Retrieve,<br>Mackenzie, Linden</li>
+                        <li class="footer__text">Mon – Fri · 6AM – 9PM</li>
+                        <li><a href="tel:+5926935900" class="footer__link">592-693-5900</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__group container">
+            <div class="footer__social">
+                <a href="https://wa.me/5926935900" target="_blank" rel="noopener" class="footer__social-link" aria-label="WhatsApp the club">
+                    <i class="ri-whatsapp-line"></i>
+                </a>
+                <a href="tel:+5926935900" class="footer__social-link" aria-label="Call the club">
+                    <i class="ri-phone-line"></i>
+                </a>
+                <a href="https://www.google.com/maps/search/?api=1&amp;query=Retrieve%2C+Mackenzie%2C+Linden%2C+Guyana" target="_blank" rel="noopener" class="footer__social-link" aria-label="Find the club on Google Maps">
+                    <i class="ri-map-pin-line"></i>
+                </a>
+            </div>
+
+            <span class="footer__copy">
+                &#169; <span id="year">2026</span> Upper Demerara Barbell Club. All rights reserved.
+            </span>
+        </div>
+    </footer>
+
+    <!--========== LIGHTBOX ==========-->
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer" hidden>
+        <button class="lightbox__close" id="lightbox-close" aria-label="Close photo"><i class="ri-close-line"></i></button>
+        <button class="lightbox__nav lightbox__nav--prev" id="lightbox-prev" aria-label="Previous photo"><i class="ri-arrow-left-s-line"></i></button>
+        <figure class="lightbox__figure">
+            <img src="" alt="" id="lightbox-img">
+            <figcaption id="lightbox-caption"></figcaption>
+        </figure>
+        <button class="lightbox__nav lightbox__nav--next" id="lightbox-next" aria-label="Next photo"><i class="ri-arrow-right-s-line"></i></button>
+    </div>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#home" class="scrollup" id="scroll-up" aria-label="Back to top">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
