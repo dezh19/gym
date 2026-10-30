@@ -1,0 +1,15 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "udbc-site",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "C:\\Users\\DESHAW~1.MIT\\AppData\\Local\\Temp\\claude\\C--Users-deshawn-mitchell-OneDrive---Georgetown-Public-Hospital-Corporation-Projects-responsive-gym-website-main\\55fbfd66-f93e-4e77-80e0-27f0a2029687\\scratchpad\\scripts\\serve.cjs",
+        "responsive-gym-website-main",
+        "5517"
+      ],
+      "port": 5517
+    }
+  ]
+}
