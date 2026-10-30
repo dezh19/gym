@@ -17,6 +17,11 @@
     <link rel="apple-touch-icon" href="assets/img/icon-192.png">
     <link rel="manifest" href="manifest.webmanifest">
 
+    <!--=============== GOOGLE FONTS ===============-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600;700&family=Kaushan+Script&display=swap" rel="stylesheet">
+
     <!--=============== REMIXICON ===============-->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
 
@@ -24,6 +29,32 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 
     <title>Upper Demerara Barbell Club | Mackenzie, Linden</title>
+
+    <!--=============== BUSINESS INFO FOR SEARCH ENGINES ===============-->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ExerciseGym",
+        "name": "Upper Demerara Barbell Club",
+        "alternateName": "UDBC",
+        "description": "Barbell and strength gym in Mackenzie, Linden, Guyana.",
+        "telephone": ["+592-693-5900", "+592-627-0139", "+592-444-4314"],
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "606 'E' Retrieve, Mackenzie",
+            "addressLocality": "Linden",
+            "addressRegion": "Upper Demerara-Berbice",
+            "addressCountry": "GY"
+        },
+        "openingHoursSpecification": [{
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "opens": "06:00",
+            "closes": "21:00"
+        }],
+        "currenciesAccepted": "GYD"
+    }
+    </script>
 </head>
 <body>
     <!--==================== HEADER ====================-->
@@ -655,9 +686,6 @@
     <a href="#home" class="scrollup" id="scroll-up" aria-label="Back to top">
         <i class="ri-arrow-up-line"></i>
     </a>
-
-    <!--=============== SCROLLREVEAL ===============-->
-    <script src="assets/js/scrollreveal.min.js"></script>
 
     <!--=============== MAIN JS ===============-->
     <script src="assets/js/main.js"></script>

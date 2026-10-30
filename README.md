@@ -18,17 +18,19 @@ responsive gym template.
 - **Join form → WhatsApp**: opens a pre-written message to the club, no server needed
 - **Club updates sign-up → WhatsApp** in the footer
 - Tap-to-call phone numbers, embedded map and directions link
-- Scroll animations (ScrollReveal), sticky header, active-link highlighting, scroll-to-top
+- Scroll-in animations (built in, no library), sticky header, active-link highlighting, scroll-to-top
 - Installable icons and web manifest; respects reduced-motion settings
+- Business details for Google (address, phones, opening hours) as structured data
 
 ## Editing club details
 
-Most details live in two places:
+Most details live in a few places:
 
 | What | Where |
 | --- | --- |
-| WhatsApp number, opening days and hours | `CLUB` object at the top of `assets/js/main.js` |
+| WhatsApp number, opening days and hours (also fills the hours table) | `CLUB` object at the top of `assets/js/main.js` |
 | Prices, text, phone numbers, address | `index.html` |
+| Colours and fonts | Variables at the top of `assets/css/styles.css` |
 
 > **Prices are placeholders.** Confirm the club's real membership rates and update the
 > `pricing__number` values in `index.html` before publishing.
@@ -43,7 +45,21 @@ npx serve .
 
 ## Images
 
-Club photos and the logo in `assets/img/` (`gym-crew.jpg`, `club-vest.jpg`,
-`club-heritage.jpg`, `fesupo-gold.jpg`, `supplements.jpg`, `lounge.jpg`,
-`udbc-logo-card.jpg`) come from the club's WhatsApp group. `udbc-emblem.png`, `favicon.png`
-and `icon-*.png` are generated from the club logo.
+All images live in `assets/img/`.
+
+> **The photos are placeholders.** `gym-crew.jpg`, `club-vest.jpg`, `club-heritage.jpg`,
+> `fesupo-gold.jpg`, `supplements.jpg` and `lounge.jpg` are branded stand-ins. Replace each
+> one with the real club photo (from the WhatsApp group) **using the same file name** and
+> the site picks it up automatically. The `alt` text in `index.html` already describes the
+> real photos.
+
+| File | Used for | Best shape |
+| --- | --- | --- |
+| `gym-crew.jpg` | Home hero | Portrait, 4:5 |
+| `club-vest.jpg` | Why Choose UDBC | Portrait, 4:5 |
+| `club-heritage.jpg` | Gallery (wide tile) | Landscape |
+| `fesupo-gold.jpg` | Gallery (tall tile) | Portrait |
+| `supplements.jpg`, `lounge.jpg` | Gallery (square tiles) | Square |
+
+`udbc-emblem.png` (the round badge), `favicon.png` and `icon-*.png` are a UDBC emblem made
+for the site. If the club has an official logo, swap it in at the same file names.
