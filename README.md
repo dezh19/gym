@@ -63,3 +63,19 @@ All images live in `assets/img/`.
 
 `udbc-emblem.png` (the round badge), `favicon.png` and `icon-*.png` are a UDBC emblem made
 for the site. If the club has an official logo, swap it in at the same file names.
+
+## Going live (GitHub Pages)
+
+The site is plain static files, so GitHub Pages can host it for free:
+
+1. On GitHub, open **Settings → Pages**.
+2. Under **Build and deployment**, set **Source** to **Deploy from a branch**, pick the
+   branch that has the site and the **/ (root)** folder, then **Save**.
+3. After a minute or two the site is live at **https://dezh19.github.io/gym/**. Every
+   push to that branch updates it automatically.
+
+`.nojekyll` tells GitHub to serve the files exactly as they are.
+
+Link previews (WhatsApp, Facebook) use `assets/img/social-card.jpg` and need full URLs.
+If the club moves to its own domain, update the `canonical`, `og:url` and `og:image`
+tags and the `url`/`image` in the business info block at the top of `index.html`.
